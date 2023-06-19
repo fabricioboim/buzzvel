@@ -13,6 +13,10 @@ I'm using an user seed to have at least one user.
 As testing our API application I used Postman.
 -->POST   http://localhost:8989/api/login
 
+inside Headers sections:
+key: Accept		application/json
+     Content-type   	application/json
+
 5- As POST method you should select body and "raw" section and write:
 
 {
